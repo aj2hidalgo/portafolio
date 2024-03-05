@@ -11,6 +11,7 @@
 body {
   background: url("../images/wallpaperflare.com_wallpaper.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   /* background: #ffffff; */
   color: #898989;
@@ -39,7 +40,7 @@ h6 {
 }
 
 h2 {
-  color: #292929;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -134,7 +135,7 @@ p {
 }
 
 .section-title h2 {
-  font-size: 25px;
+  font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -457,7 +458,7 @@ nav ul li a {
 }
 
 .image {
-  width: 500px;
+  width: 450px;
 }
 
 /*-----------------------------------------------------------------------------------*/
