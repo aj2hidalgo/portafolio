@@ -11,10 +11,10 @@ app.use(
   })
 );
 
-app.use(express.static(path.join(__dirname, "./out")));
+app.use(express.static(path.join(__dirname, "./")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./out", "index.html"));
+  res.sendFile(path.join(__dirname, "./", "index.html"));
 });
 
 exports.app = app;
